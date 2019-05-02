@@ -14,7 +14,7 @@ deltaTime = 0
 currentTime = 0
 intractableObjects = []
 currentGameStatus=0
-
+currentGameScore =0
 def initCamera():
     global player, cameraZoom
     glMatrixMode(GL_PROJECTION)
