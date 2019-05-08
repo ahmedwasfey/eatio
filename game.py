@@ -184,7 +184,7 @@ def onKeyboardKeyDown(key, x, y):
 def onSpecialKeyDown(key, x, y):
     global player
     global angle
-    speed = min(max(15 / player.radius, 5), 10) * 1.5
+    speed = min(max(15 / player.radius, 5), 10) * 3
     if key == GLUT_KEY_RIGHT:
         if player.posX < 100 - player.radius:
             player.posX += speed * deltaTime
