@@ -1,0 +1,15 @@
+from objects.PlayerObject import *
+from gametextures import drawText2D
+
+GAME_STATUS_MAINMENU = 0
+GAME_STATUS_COUNTDOWN = 1
+GAME_STATUS_PLAYING = 4
+GAME_STATUS_SCORE = 100
+GAME_SPEED_FACTOR = 1
+
+# Player
+PLAYER_MINIMUM_MOVEMENT = 8
+
+# Score
+AREA_TO_SCORE_RATIO = 2
+
