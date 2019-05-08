@@ -34,7 +34,7 @@ class PlayerObject(GameObject):
         self.score =0
         self.currentGameScore=0
         self.refrenceGameScore=0
-        self.toMakeBig =2
+        self.toMakeBig =15
 
     def update_area(self):
         self.area = pi * self.radius * self.radius * .5
